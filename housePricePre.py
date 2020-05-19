@@ -15,6 +15,7 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.linear_model import LassoCV, RidgeCV, ElasticNetCV
 from sklearn.pipeline import make_pipeline
 
+from sklearn.model_selection import GridSearchCV
 
 class DataVisul():
 
